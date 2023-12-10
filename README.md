@@ -1,6 +1,9 @@
 # unaccent
 Remove Accents from Strings in JavaScript.  Inspired by PostgreSQL.
 
+## demo
+https://danieljdufour.com/unaccent/
+
 ## install
 `npm install unaccent` or `<script src="https://unpkg.com/unaccent"></script>`
 
