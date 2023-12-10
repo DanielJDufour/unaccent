@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="./unaccent.js"></script>
+    <script src="https://unpkg.com/flug"></script>
+  </head>
+  <body>
+    <h1>Unaccent Demo</h1>
+    <textarea
+      style="box-sizing: border-box; height: 100px; resize: none; width: 300px"
+    >
+Enter text here like "Hôtel de la Mer" or "Hagåtña" and then press the button below.</textarea
+    >
+    <br />
+    <button
+      style="cursor: pointer; height: 50px; text-align: center; width: 300px"
+    >
+      Unaccent
+    </button>
+  </body>
+  <script>
+    document.querySelector("button").addEventListener("click", function () {
+      const textarea = document.querySelector("textarea");
+      textarea.value = unaccent(textarea.value);
+    });
+  </script>
+</html>
