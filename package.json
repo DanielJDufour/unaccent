@@ -1,6 +1,6 @@
 {
   "name": "unaccent",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Remove Accents from Strings in JavaScript.  Inspired by PostgreSQL.",
   "main": "./unaccent.js",
   "files": [
