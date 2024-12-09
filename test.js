@@ -12,7 +12,12 @@ const cases = [
   ["Hôtel de la Mer", "Hotel de la Mer"],
   ["Mayagüez", "Mayaguez"],
   ["San José", "San Jose"],
-  ["Utqiaġvik", "Utqiagvik"]
+  ["Utqiaġvik", "Utqiagvik"],
+  ["ÆDEM", "AEDEM"],
+  ["curriculum vitæ", "curriculum vitae"],
+  ["Suderø", "Sudero"],
+  ["sýsla", "sysla"],
+  ["Trongisvágsfjørður", "Trongisvagsfjordur"]
 ];
 
 cases.forEach(([original, expected]) => {
