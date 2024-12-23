@@ -5,7 +5,8 @@
   "main": "./unaccent.js",
   "types": "./unaccent.d.ts",
   "files": [
-    "unaccent.js"
+    "unaccent.js",
+    "unaccent.d.ts"
   ],
   "scripts": {
     "format": "npx prettier --arrow-parens=avoid --trailing-comma=none --write *.js *.html",
