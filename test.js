@@ -18,6 +18,7 @@ const cases = [
   ["Suderø", "Sudero"],
   ["sýsla", "sysla"],
   ["Trongisvágsfjørður", "Trongisvagsfjordur"]
+  // ["𝔩", "l"]
 ];
 
 cases.forEach(([original, expected]) => {
