@@ -17,8 +17,8 @@ const cases = [
   ["curriculum vitæ", "curriculum vitae"],
   ["Suderø", "Sudero"],
   ["sýsla", "sysla"],
-  ["Trongisvágsfjørður", "Trongisvagsfjordur"]
-  // ["𝔩", "l"]
+  ["Trongisvágsfjørður", "Trongisvagsfjordur"],
+  ["𝔩orem isprum", "lorem isprum"]
 ];
 
 cases.forEach(([original, expected]) => {
