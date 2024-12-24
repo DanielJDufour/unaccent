@@ -2672,15 +2672,16 @@ const translations = new Map([
   ["🄦", "(W)"],
   ["🄧", "(X)"],
   ["🄨", "(Y)"],
-  ["🄩", "(Z)"]
+  ["🄩", "(Z)"],
 ]);
 
 function unaccent(str) {
   let newStr = String(str);
   let i = 0;
+  const chars = [...newStr];
 
   while (true) {
-    const char = newStr[i];
+    const char = chars[i];
     if (!char) {
       break;
     }
@@ -2691,7 +2692,7 @@ function unaccent(str) {
     i++;
   }
 
-  return newStr.replace(/\'/g, "");
+  return newStr.replace(/[\uDC00-\uDFFF]/g, "").replace(/\'/g, "");
 }
 
 if (typeof define === "function" && define.amd) {
